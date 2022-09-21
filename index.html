@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title> Encriptador espacial </title>
+	<link rel="icon" href="assets/img/gatoAstronauta.png" type="image/png">
+	<link rel="stylesheet" href="assets/css/resets.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+	
+	<main>
+
+		<section class="logo">
+
+			<img src="assets/img/logo.png" alt="logotipo" >
+
+		</section>
+
+		<section class="entrada_texto">
+
+			<textarea id="entrada-texto" cols="42" rows="10" placeholder="Ingresar texto..."></textarea>
+
+		</section>
+
+		<section class="salida_texto">
+
+			<img id="imagen" src="assets/img/astronauta.png" alt="Muñeco">
+
+			<h2 id="mensaje-404">Ningún mensaje fue encontrado </h2>
+			<br>
+			<br>
+			<h3 id="mensaje-404">Ingresa el texto que desees encriptar ó desencriptar.</h3>
+
+			<textarea id="salida-texto" cols="25" rows="18" placeholder="Ingresar texto..."
+				style="display: none;"></textarea>
+
+			<button id="btnCopiar" style="display: none;">
+				<strong>Copiar</strong>  
+			</button>
+
+		</section>
+
+		<section class="acciones">
+
+			<div class="info">
+
+				&#9888; Solo letras minúsculas y sin acentos 
+
+			</div>
+
+			<div class="botones">
+
+				<a href="#" id="encriptar"> <span></span> <span></span> <span></span> <span></span> Encriptar </a>
+
+				<a href="#" id="desencriptar"> <span></span> <span></span> <span></span> <span></span> Desencriptar </a>
+
+			</div>
+
+		</section>
+
+	</main>
+
+
+	<footer> &copy; Created by Leydi De Dios/Alura Latam</footer>
+
+
+	<script defer src="assets/js/script.js"></script>
+
+</body>
+
+
+</html>
